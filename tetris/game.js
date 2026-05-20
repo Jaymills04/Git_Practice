@@ -167,7 +167,7 @@
       const newLevel = Math.floor(linesCleared / LINES_PER_LEVEL) + 1;
       if (newLevel > level) {
         level = newLevel;
-        dropIntervalMs = Math.max(100, 800 - (level - 1) * 60);
+        dropIntervalMs = Math.max(100, 800 - (level - 1) * 60); 
       }
       updateHud();
     }
